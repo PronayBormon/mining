@@ -17590,3 +17590,10 @@ td .btn-action.style-5 {
 .form-group .btn_copy{
   font-size: 14px;
 }
+
+#site-logo{
+  width: 100%;
+}
+.sidebar__logo a img{
+  width: 100%;
+}
