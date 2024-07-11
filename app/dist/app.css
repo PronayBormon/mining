@@ -747,7 +747,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
 
 @media only screen and (max-width: 767px) {
   .header .header__right .group-button {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -17581,19 +17581,35 @@ td .btn-action.style-5 {
 .alert_ ul li span {
   color: #ff4581;
 }
-.sign-in__main .input_group{
+
+.sign-in__main .input_group {
   display: unset !important;
 }
+
 .form-check-input:checked[type=checkbox] {
   background: #fe4580 !important;
 }
-.form-group .btn_copy{
+
+.form-group .btn_copy {
   font-size: 14px;
 }
 
-#site-logo{
+#site-logo {
   width: 100%;
 }
-.sidebar__logo a img{
+
+.sidebar__logo a img {
   width: 100%;
+}
+
+@media(max-width: 576px) {
+  .header .header__right .group-button a {
+    padding: 5px 15px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .header .header__right .mobile-button {
+    margin-left: 10px;
+  }
 }
